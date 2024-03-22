@@ -1,0 +1,27 @@
+  #yourObject {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(102, 102, 234); /* Змініть колір за бажанням */
+  }
+  #draggableElement {
+    position: absolute; /* Додано абсолютне позиціонування */
+    width: 100px;
+    height: 100px;
+    background-color: rgb(220, 124, 124); /* Змініть колір за бажанням */
+    cursor: move;
+    top: 0; /* Set top position */
+    left: 0; /* Set left position */
+  }
+  #mouseTargetElement {
+    position: absolute; /* Додано абсолютне позиціонування */
+    width: 100px;
+    height: 100px;
+    background-color: rgb(97, 196, 97);
+    top: 200px; /* Set top position */
+    left: 200px; /* Set left position */}
+
+body {
+    margin-top: 150px;
+    margin-left: 45%;
+}
